@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <!--Jqeury -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+  <script src="components/loader.js"></script>
+  <script src="components/script.js"></script>
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <h2>Cadastro de Serumanos</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="">Nome:</label>
+        <input type="text" class="form-control" id="nome">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="">Endereço:</label>
+        <input type="text" class="form-control" id="endereco">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <button class="btn-primary btn-block" id="salvar">Salvar</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="">Digite o ID:</label>
+        <input type="text" class="form-control" id="id">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <button class="btn btn-danger btn-block" id="buscar">Buscar</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="">Nome:</label>
+        <input type="text" class="form-control" id="nomeBusca" readonly>
+      </div>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="">Endereço:</label>
+        <input type="text" class="form-control" id="enderecoBusca" readonly>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <button class="btn btn-secondary btn-block" id="limpar">Limpar tudo</button>
+        <button class="btn btn-warning btn-block" id="remover">Remover dado</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
